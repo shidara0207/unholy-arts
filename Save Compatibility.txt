@@ -1,0 +1,8 @@
+For a few versions starting at 0.3.0, and hopefully up to the end of the first adventure, I'm not planning to add mechanical changes that may dramatically alter the required information in the save files, so I'll be aiming to make these versions save-compatible.
+
+However, given that some events will take place at scripted days, it is heavily advised that you keep a separate save file saved before specific days.
+
+* Version 0.3.0: last fixed event after day 18. The save file you want to use in future versions shouldn't be further away than day 19 of the first month.
+* Version 0.3.1: last fixed event after day 21. The save file you want to use in future versions shouldn't be further away than day 22 of the first month.
+* Version 0.3.2: adventure starts after day 25. You must keep a playthrough saved on the screen mentioning that you have reached the end of the current playable content.
+* Version 0.3.3: Keep a playthrough saved on the screen mentioning that you have reached the end of the current available story.

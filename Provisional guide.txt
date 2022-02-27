@@ -1,0 +1,101 @@
+This is a provisional guide aimed at providing some starting pointers, as well as explaining some obscure mechanics of Unholy Arts, as many of them are not explained in-game yet. This guide may contain spoilers. 
+
+Playing blind is also a legitimate choice, if you want to give it a try to discover how the mechanics work by yourself.
+
+Remember that it isn't required to understand every mechanic in the game in all its depth to have fun with it, and it is expected that most players engage in casual playthroughs.
+
+----- Character builds -----
+Not too long into the game, you'll be offered to set your character's stat boons and weaknesses.
+
+- Affinities -
+At a first glance, these give you flat increased and decreased values, but they also change your character's affinity for those stats. A stat's affinity determines how fast you gain experience for that specific stat.
+
+Minor and major boons and weaknesses increase or decrease each stat's affinity by 5% and 10%, respectively, and these values may be stacked.
+
+- Bars -
+Energy increases along with physique, agility and resilience.
+Willpower increases along with intelligence, will and perception.
+Social drive increases along with empathy, charisma and luck.
+Lust increases along with all other stats.
+
+You also require energy, willpower and social drive to train any of those stats, except luck. Gaining new levels in a given stat costs more experience as it increases.
+
+- What stats are used for -
+Physique and agility are the most important stats to deal lust damage with vanilla sex actions.
+Physique, agility and resilience are usually used to deal damage with physical actions.
+Resilience usually helps to reduce sexual and physical damage, and increases your retaliation damage with some sex actions.
+Intelligence and will are the most important stats to deal damage with magical actions.
+Charisma and empathy are the most important stats to deal damage with social actions.
+Perception and agility usually help to land and evade non-social actions in combat. Charisma and empathy usually help to land and evade social actions in combat.
+Social interactions usually increase in effectivity with higher charisma, empathy, agility, will, and sometimes other stats, depending on the interaction itself.
+Luck influences mostly everything in small degrees.
+
+- How to build your character -
+After understanding all of this, you may reach many different conclusions on how to build your character.
+You may decide to focus on training one stat from energy, another one from willpower, and another one from social drive, in order to maximize the use of your bar stats.
+You may decide to give some extra priority to training 2 or even 3 stats from one bar, in order to get that specific bar to grow as much as possible.
+You may decide to focus on a few stats only, to get the most out of the actions that use them, or you may decide to train them in certain proportions, in order to gain as many points as possible.
+All of these strategies should have strengths and weaknesses.
+
+- Build ideas -
+Here are some build ideas:
+* Focus on training physique and intelligence, dump will and perception. Intelligence increases the effectiveness of Freeze Feet, which erodes your enemies' control. Once they're out of control, there are a lot of sex actions that increase in effectiveness with physique.
+* Focus on training charisma, will and agility, dump resilience and intelligence. Hypnotic glance scales with charisma and will, and serves as a mean to erode control and deal damage, will and agility are good stats to evade attacks, and many soft sexual actions scale with agility. Builds that focus on charisma or empathy may be slightly weaker in combat than the average, but they give you a lead in building relationships and gaining allies.
+* Moderate focus on physique, agility and resilience, soft focus on perception, dump intelligence and charisma. Many actions that benefit from one of the first three stats benefit from the others as well, such as kick and many of the continued sex actions - but you may have some trouble to train your energy bar at first. Perception is a good stat to evade many different attacks.
+
+----- Relationships -----
+Relations are defined by many different variables, including friendship, sexual tension, romance, domination, submission, enmity and rivalry. These variables will determine how other characters feel they should behave with you.
+
+- In depth mechanical explanation -
+Each of them has a short term value (STV), a long term value (LTV) and a level. When a character gains points in these categories, they're added to STV. At the end of the day, 4% of all the STV is lost, and 1% is moved to LTV. The sum of STV and LTV determines the resting level, and relationship levels move towards it by 1 each day.
+This means that relationships will not change in great degrees immediately (unless you use the appropriate command in the Cheat Menu), and they will decay unless you keep working on them or the STV gets depleted (or rather, until STV falls to insignificant amounts).
+
+- Social interactions -
+Social interactions are one of the ways in which you can build your relationships with other characters. You can engage in them by talking to other characters in the map. At the start of the game, Maaterasu and Claw will reject all attempts to socialize with them, but they will eventually change their attitudes.
+
+During social interactions, all characters choose an interaction each turn. Interactions have effects in each characters' relations and moods, and the current values of relations and moods may decide if those interactions are effective or not. The effects of social interactions have base values, but they also scale with different stats. The most useful ones are charisma, empathy, and sometimes, agility.
+
+- Some effects of mood -
+The current mood of a character determines the interactions they're offered to choose from each turn.
+
+While the most obvious way to use these mechanics in your favor is increasing a character's flirtiness and arousal to get them to bed, there are many alternative ways in which you can use these mechanics. For instance, if you spend a few minutes insulting another character or boring them to death, they will be less likely to have successful socialization during the following hours, and they may even have trouble to get allies, since they will get far more hostile choices and will be more likely to respond in negative ways. Using submissive interactions will increase your target's dominance, which will make them less likely to accept offers of submission from other characters.
+
+----- Other mechanics -----
+There are other mechanics in the game that should receive some mention.
+
+- Sex preferences -
+Each NPC has a personal and a temporary set of preferences for action use during sex scenes. Each NPC Candidate has a customized personal set assigned to them at the start of the game, while the temporary one changes depending on the way that the scene was initiated. This only affects NPC behavior, not the effect of actions.
+
+- Combat affinities -
+There are around 20 combat affinities as of version 0.2.2, including "sex","drain","physical","magic","fire" and many others. Combat affinities have strength (increases power of used actions), frailty (reduces power of used actions), resistance (reduces power of received actions) and weakness (increases power of received actions). Each action may have different affinities, while each character has a full list of strength, frailty, etc. for each kind of affinity, the vast majority of them set at 0.
+
+Each NPC Candidate has some base values other than zero due to their race, personality, or other personal attributes. For instance, Maaterasu is the most extreme case, and she has: 20 physical resistance, 20 physical frailty, 20 magic strength, 20 magic weakness, 10 social resistance, 10 social frailty, and 10 pain weakness.
+
+When an action hits a character the sum of resistance and weakness reaches certain values, a custom message will be shown, indicating the effectiveness.
+
+Some altered states temporarily modify these statistics. For instance, cold guts increases resistance to sex actions, while scratched increases weakness to pain.
+
+- Action types and evasion during combat -
+The probability of landing certain actions varies depending on their types and the current situation of the attacker and the target. As of version 0.2.3, these changes are:
+- Pounce: If the target has no control left, the action lands automatically.
+- Pounce: Probability of landing increases with the actor's and target's affinity for pounce. This was introduced in v0.2.2. Claw has innate pounce affinity, and cat aspect increases it further.
+- Contact: If attacker and target share a position, the action lands automatically.
+- Hit: If attacker and target share a position, receives a 20 extra probability of landing.
+- Projectile: If attacker and target share a position, receives a 20 reduced probability of landing. Projectile attacks tend to have an higher probability of landing.
+- Sound: No changes.
+- Vision: No changes. There should be a clase to automatically fail the attack if the target has the eyes locked though.
+- Social: Social attacks have a higher probability of landing by default. Probability of landing increases with the actor's and target's affinity for social. This was introduced in v0.2.3. Valtan has extra social strength, Claw has extra social weakness, Maaterasu has extra social resistance and frailty.
+
+----- The effects of luck -----
+It is mentioned that luck effects a lot of different mechanics of the game, including combat damage, evasion and social interactions.
+
+Most of the time, these events' effects are influenced by dice rolls. You may, for example, use thrust, which would deal 5 damage thanks to your stats. That 5 damage will be modified by a dice roll that will apply a multiplier to it, between 0.9 and 1.1 depending on the value of the roll. That lower limit, however, changes depending on your character's luck. With 0 luck, the lower limit will be 0.9, with 50 luck, the lower limit will be 1.0, and 100 luck will put that limit at 1.1.
+
+This means you won't get very far by focusing hard on training luck, but on average, it will increase the effectiveness of your actions by a percentage, so dedicating some time to training it will be sometimes worth it.
+
+----- Character Drives -----
+Non-playable Candidates have 6 "character drives", which determine their personality and goals. These are: self-improvement, pleasure, love, cooperation, domination and ambition. Each character has different values for these drives, they evolve along with the story and different events that happen to them, and play a role in determining their behavior.
+
+While this is a work in progress, there are already many ways in which you can use drives to influence your peers. Characters with high cooperation will be less likely to force servitude upon their rivals on victory, and you can make them gain cooperation by helping them during assaults. Characters with higher pleasure than love will be generally more selfish -and open to seduction-, and there are many different circumstances that may make them lose and gain pleasure and love drives during sex scenes.
+
+Play experimentally and you will discover different ways in which you can influence the other Candidates.

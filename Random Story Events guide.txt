@@ -1,0 +1,32 @@
+After day 12, story events will sometimes be chosen randomly. These story events have requirements and weight: you may only get them if the requirements are met; the chance of getting a specific event over others increases with their weight.
+
+- Aspiring Tree Climber
+  * Requires both Claw and the player character to have free arms, legs and eyes.
+- Luring Masquerade
+  * Requires both Valtan and the player character to have free legs, none of the player character, Valtan or Padmiri must have a dominant or submissive relationship with any of the other two, and Valtan must not have an egalitarian relationship with neither the player character nor Padmiri.
+  * Lower base weight, increases with Valtan's sexual tension and rivalry towards the PC and Padmiri.
+- Gifts For Nature
+  * No requirements.
+- Discovering The Others
+  * No requirements.
+  * Lower base weight, increases with Ate's friendship and romance towards the PC, decreases with rivalry and enmity towards the PC.
+
+Version 0.3
+- The Grapes of Lust
+  * Requirements: Val's domme isn't the player or Ate, Ate's domme isn't Valtan or the player, the player's domme isn't Valtan, Valtan's pussy is free, Ate's and the player's mouths are free.
+  * Weight: Moderately low starting weight, increases with Maaterasu's self-improvement drive (which is high at the start of the game).
+
+- Martial Training I
+  * Requirements: Nashillbyir is tutoring the player character. Nashillbyir must have arms and legs free, the player's arms and legs must not be locked by anyone other than Nashillbyir.
+  * Weight: Very high starting weight.
+
+Version 0.3.1
+- Flaunting a Kitty
+  * Requirements: Claw is the player's submissive, Padmiri has no dominant, Padmiri's pussy is free, Claw's mouth is free.
+  * Weight: Moderate initial weight, increases with Padmiri's sexual tension towards the player and Claw, Padmiri's submission towards the player, and Padmiri's pleasure drive.
+  * Checks: (Padmiri's submission to PC, Padmiri's sexual tension with PC and Claw, Padmiri's nervousness, Padmiri's pleasure drive), (Player has unused collar, chastity belt and/or chastity cage)
+
+- Bondage Awakening
+  * Requirements: Neither the player character, Padmiri, Nashillbyir or Claw is domming any of the others. Nashillbyir and Claw have free arms and legs, the player and Padmiri have free arms.
+  * Weight: Moderately low initial weight, moderately increased by enmity and rivalry between Nash and Claw, slightly reduced by friendship and romance between Nash and Claw.
+  * Checks: (Player can use aetherial chains, Player's intelligence and will), (Player can use hypnotic glance, Player's charisma and will), (Padmiri's domination, ambition, pleasure, -cooperation, -love), (Padmiri's pleasure drive, Padmiri's sexual tension towards Nash, Claw and the player), (Padmiri's submission, friendship, romance and -enmity with the player), (Padmiri's domination, friendship, romance and -enmity with the player)
